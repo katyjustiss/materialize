@@ -125,6 +125,11 @@ p {
   justify-content: space-between;
 }
 
+.blue-dots {
+  height: 20px;
+  background: #fff url("../img/homepage/dotted_line_44x9.png") repeat-x top left;
+}
+
 .row4 .row:last-child {
   background: #fff;
   border-radius: 0 0 30px 30px;
