@@ -1,7 +1,12 @@
+
+/* imported text. Include the file in a directory*/
 @font-face {
   font-family: 'cooper';
   src: url(../cooper-black-std.ttf);
 }
+
+
+/********* General Styling ************/
 
 .row {
   background: #fff;
@@ -24,6 +29,8 @@
   padding-top: 60px;
 }
 
+/********Very top, right links *************/
+
 .sign-in {
   display: flex;
 }
@@ -38,6 +45,8 @@
 .sign-in li:first-child {
   border-right: 2px solid #34979f;
 }
+
+/***********Top Section ******************/
 
 .logo-col {
   align-self: flex-end;
@@ -79,6 +88,8 @@
   width: 100%;
 }
 
+/***************Light Pink Nav Bar ******************/
+
 .row2 {
   border-radius: 60px 60px 0 0;
   display: flex;
@@ -114,9 +125,8 @@ nav div div ul {
   background: #fff url(../img/search.gif) no-repeat left;
   text-align: center;
 }
-input.placeholder {
-    text-align: center;
-}
+
+/*************** Main Content ******************/
 
 h4 {
   color: #7DC328;
@@ -160,11 +170,15 @@ p {
   background: #fff url("../img/homepage/dotted_line_44x9.png") repeat-x top left;
 }
 
+/************* Social Icon Row *******************/
+
 .row4 .row:last-child {
   background: #fff;
   border-radius: 0 0 30px 30px;
   padding: 0 30px;
 }
+
+/***************** Footer ************************/
 
 .footer {
   display: flex;
