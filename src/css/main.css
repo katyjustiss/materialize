@@ -101,6 +101,17 @@ nav div div ul {
   font-weight: 400;
 }
 
+.search input{
+  display: block;
+  line-height: inherit;
+  padding-left: 4rem;
+  width: calc(100% - 4rem);
+  background-color: #fff;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
 h4 {
   color: #7DC328;
   font-family: 'cooper';
