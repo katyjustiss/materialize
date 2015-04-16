@@ -93,7 +93,15 @@ nav div div ul {
   font-size: 1.5em;
   font-weight: 400;
 }
-
+h4 {
+  color: #8db639;
+}
+.owl {
+  display: flex;
+}
+p {
+  color: #78cbd0;
+}
 .social {
   display: flex;
   justify-content: space-between;
