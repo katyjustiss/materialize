@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'cooper';
+  src: url(../cooper-black-std.ttf);
+}
+
 .row {
   background: #fff;
   margin-bottom: 0;
@@ -91,13 +96,15 @@ nav div div ul {
 
 .main-nav a {
   color: #6e1849;
-  font-family: 'cooper-black-std';
+  font-family: 'cooper';
   font-size: 1.5em;
   font-weight: 400;
 }
 
 h4 {
-  color: #8db639;
+  color: #7DC328;
+  font-family: 'cooper';
+  font-size: 1.75em;
 }
 
 .owl {
