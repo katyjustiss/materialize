@@ -119,12 +119,13 @@ h4 {
   font-size: 1.75em;
 }
 
-.owl {
-  display: flex;
+.owl img, .owl p {
+  display: inline-block;
 }
 
 p {
   color: #78cbd0;
+  font-size: 1.25em;
 }
 
 .shop-now {
@@ -168,7 +169,7 @@ p {
 .footer li {
   padding: 0 8px;
   border-right: 1px solid #fff;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .footer li:last-child {
