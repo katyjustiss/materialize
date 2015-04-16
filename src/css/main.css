@@ -75,6 +75,10 @@
   align-self: flex-end;
 }
 
+.tag-line {
+  width: 100%;
+}
+
 nav {
   background: #f4cbd3;
 }
