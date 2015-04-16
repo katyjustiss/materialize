@@ -34,7 +34,9 @@
   border-right: 2px solid #34979f;
 }
 
-
+.logo-col {
+  align-self: flex-end;
+}
 
 .top-nav {
   display: flex;
@@ -74,6 +76,8 @@
 
 .row2 {
   border-radius: 60px 60px 0 0;
+  display: flex;
+  height: 160px;
 }
 
 nav {
