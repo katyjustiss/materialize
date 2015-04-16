@@ -87,6 +87,7 @@
 
 nav {
   background: #f4cbd3;
+  box-shadow: none;
 }
 
 nav div div ul {
