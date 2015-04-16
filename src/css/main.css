@@ -75,9 +75,6 @@
   align-self: flex-end;
 }
 
-.logo {
-}
-
 nav {
   background: #f4cbd3;
 }
@@ -111,6 +108,12 @@ p {
   background: #fff;
   border-radius: 0 0 30px 30px;
   padding: 0 30px;
+}
+
+.blue-dots {
+  background: #fff url("../img/homepage/dotted_line_44x9.png") repeat-x top left;
+  height: 9px;
+
 }
 
 .footer {
