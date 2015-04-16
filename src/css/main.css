@@ -37,15 +37,17 @@
 .top-nav {
   display: flex;
   justify-content: space-between;
+  margin: 70px 20px 10px;
 }
 
 .top-nav li {
   border-radius: 20px;
   flex-grow: 1;
   text-align: center;
-  margin: 0 3px;
+  margin: 0 1px;
   color: #fff;
   font-size: 1.25em;
+  font-weight: 200;
 }
 
 .top-nav li:first-child {
@@ -97,12 +99,15 @@ nav div div ul {
   font-size: 1.5em;
   font-weight: 400;
 }
+
 h4 {
   color: #8db639;
 }
+
 .owl {
   display: flex;
 }
+
 p {
   color: #78cbd0;
 }
