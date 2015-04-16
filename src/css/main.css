@@ -67,6 +67,15 @@
 
 .row2 {
   border-radius: 60px 60px 0 0;
+  height: 160px;
+  display: flex;
+}
+
+.logo-col {
+  align-self: flex-end;
+}
+
+.logo {
 }
 
 nav {
