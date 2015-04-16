@@ -64,6 +64,10 @@
   background: #e9168c;
 }
 
+.tagline {
+  width: 100%;
+}
+
 .row2 {
   border-radius: 60px 60px 0 0;
   height: 160px;
