@@ -43,7 +43,6 @@
 
 .top-nav li {
   border-radius: 20px;
-  background: firebrick;
   flex-grow: 1;
   text-align: center;
   margin: 0 3px;
@@ -90,6 +89,26 @@ nav div div ul {
   font-size: 1.5em;
   font-weight: 400;
 }
+<<<<<<< HEAD
+=======
+h4 {
+  color: #8db639;
+}
+.owl {
+  display: flex;
+}
+p {
+  color: #78cbd0;
+}
+
+.chitlins {
+  margin-top: 20px;
+}
+
+.chitlins img {
+  width: 100%;
+}
+>>>>>>> 30177dd27db3f8988113e7de5e1450d0b425a3bb
 
 .social {
   display: flex;
