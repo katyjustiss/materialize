@@ -34,6 +34,8 @@
   border-right: 2px solid #34979f;
 }
 
+
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -66,22 +68,12 @@
   background: #e9168c;
 }
 
-.tagline {
+.tag-line {
   width: 100%;
 }
 
 .row2 {
   border-radius: 60px 60px 0 0;
-  height: 160px;
-  display: flex;
-}
-
-.logo-col {
-  align-self: flex-end;
-}
-
-.tag-line {
-  width: 100%;
 }
 
 nav {
@@ -129,12 +121,6 @@ p {
   background: #fff;
   border-radius: 0 0 30px 30px;
   padding: 0 30px;
-}
-
-.blue-dots {
-  background: #fff url("../img/homepage/dotted_line_44x9.png") repeat-x top left;
-  height: 9px;
-
 }
 
 .footer {
