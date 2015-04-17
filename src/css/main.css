@@ -8,13 +8,14 @@
 
 /********* General Styling ************/
 
-.row {
-  background: #fff;
-  margin-bottom: 0;
-}
 
 .container {
   padding: 0;
+}
+
+.row {
+  background: #fff;
+  margin-bottom: 0;
 }
 
 .container-top, .main-top, .row1 {
@@ -25,11 +26,24 @@
   background: #78cbd1;
 }
 
+h4 {
+  color: #7DC328;
+  font-family: 'cooper';
+  font-size: 1.75em;
+}
+
+p {
+  color: #78cbd0;
+  font-size: 1.25em;
+}
+
+
+/********Very top, right links *************/
+
+
 .row1 {
   padding-top: 60px;
 }
-
-/********Very top, right links *************/
 
 .sign-in {
   display: flex;
@@ -46,10 +60,18 @@
   border-right: 2px solid #34979f;
 }
 
+
 /***********Top Section ******************/
 
+
+.row2 {
+  border-radius: 60px 60px 0 0;
+  display: flex; /* Allows for logo to break out of row */
+  height: 160px; /* Allows for logo to break out of row */
+}
+
 .logo-col {
-  align-self: flex-end;
+  align-self: flex-end; /* Allows for logo to break out of row */
 }
 
 .top-nav {
@@ -90,18 +112,13 @@
 
 /***************Light Pink Nav Bar ******************/
 
-.row2 {
-  border-radius: 60px 60px 0 0;
-  display: flex;
-  height: 160px;
-}
 
 nav {
   background: #f4cbd3;
   box-shadow: none;
 }
 
-nav div div ul {
+.main-nav {
   display: flex;
   justify-content: space-between;
 }
@@ -126,21 +143,12 @@ nav div div ul {
   text-align: center;
 }
 
+
 /*************** Main Content ******************/
 
-h4 {
-  color: #7DC328;
-  font-family: 'cooper';
-  font-size: 1.75em;
-}
 
 .owl img, .owl p {
   display: inline-block;
-}
-
-p {
-  color: #78cbd0;
-  font-size: 1.25em;
 }
 
 .shop-now {
@@ -160,17 +168,19 @@ p {
   width: 100%;
 }
 
-.social {
-  display: flex;
-  justify-content: space-between;
-}
+
+/************* Social Icon Row *******************/
+
 
 .blue-dots {
   height: 20px;
   background: #fff url("../img/homepage/dotted_line_44x9.png") repeat-x top left;
 }
 
-/************* Social Icon Row *******************/
+.social {
+  display: flex;
+  justify-content: space-between;
+}
 
 .row4 .row:last-child {
   background: #fff;
@@ -178,7 +188,9 @@ p {
   padding: 0 30px;
 }
 
+
 /***************** Footer ************************/
+
 
 .footer {
   display: flex;
