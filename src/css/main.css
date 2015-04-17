@@ -132,17 +132,35 @@ nav {
 
 .search input {
   display: block;
-  line-height: inherit;
-  padding-left: 15%;
-  width: calc(100% - 4rem);
+  /*line-height: inherit;*/
+  padding-left: 5%;
+  width: calc(100% - 2rem);
   height: 25px;
-  margin-top: 18px;
+  margin-top: 19px;
   border-radius: 20px;
   border-color: #e9168c;
-  background: #fff url(../img/search.gif) no-repeat left;
+  background: #fff url(../img/search.gif) no-repeat 8% 50%;
   text-align: center;
+  color: #000;
 }
 
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FDCCD6;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #FDCCD6;
+   opacity:  1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #FDCCD6;
+   opacity:  1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #FDCCD6;
+}
 
 /*************** Main Content ******************/
 
